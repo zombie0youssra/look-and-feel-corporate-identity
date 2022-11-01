@@ -30,11 +30,11 @@ De focus van deze sprint ligt op het toepassen van een huisstijl en het maken va
 
 Voor deze leertaak gelden de gedragscriteria voor sprint 4: 
 
-* Samenwerken: Draagt verantwoording voor eigen resultaten en verwerkt ontvangen feedback
+* ~~Samenwerken: Draagt verantwoording voor eigen resultaten en verwerkt ontvangen feedback~~
 * Communiceren: Luistert naar wat een ander zegt en neemt dit serieus
 * Probleemoplossend vermogen: Analyseert een vraag en volgt de aangeboden oplossingsrichting
 * Probleemoplossend vermogen: Gebruikt aangeboden principes en conventies op het gebied van frontend, interface design en vormgeving om een passende oplossing voor een opdrachtgever te realiseren
-* Lerend vermogen: Toont beginnend inzicht in eigen capaciteiten en beperkingen en kan deze benoemen
+* ~~Lerend vermogen: Toont beginnend inzicht in eigen capaciteiten en beperkingen en kan deze benoemen~~
 
 Deze opdracht is done als:
 - [ ] de door jou gemaakte onderdelen onderbouwd en aantoonbaar voldoen aan de huisstijl van de opdrachtgever
