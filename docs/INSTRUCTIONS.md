@@ -4,6 +4,11 @@ Ontwerp en maak voor een opdrachtgever een component of website op basis van een
 ## Context
 Deze leertaak hoort bij sprint 4 Look and Feel. Dit is een opdracht die je individueel uitvoert voor een opdrachtgever.
 
+Bij deze leertaak horen de volgende deeltaken:
+
+* [living styleguide](https://github.com/fdnd-task/look-and-feel-living-styleguide)
+* [custom properties](https://github.com/fdnd-task/look-and-feel-custom-properties)
+
 ## Doel van deze opdracht
 Je leert hoe onderdelen van een website op basis van een bestaande huisstijl maakt.
 
