@@ -8,6 +8,7 @@ Bij deze leertaak horen de volgende deeltaken:
 
 * [living styleguide](https://github.com/fdnd-task/look-and-feel-living-styleguide)
 * [custom properties](https://github.com/fdnd-task/look-and-feel-custom-properties)
+* [schets je ontwikkeling](https://github.com/fdnd-task/look-and-feel-schets-je-ontwikkeling)
 
 ## Doel van deze opdracht
 Je leert hoe onderdelen van een website op basis van een bestaande huisstijl maakt.
