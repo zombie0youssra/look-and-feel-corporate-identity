@@ -4,13 +4,20 @@
 
 body{
     margin-left: 1em;
-    
+    font-family: 'Sen', sans-serif;
 }
 
+.link_loguit {
+    margin-left: 5em;
+}
 
+a{
+    color: black;
+    text-decoration: none;
+}
 
-header{
-    
+a:hover{
+    color: red;
 }
 
 .logo{
@@ -30,20 +37,66 @@ li{
     margin-left: 0.5em;
 }
 
+li:hover{
+    color: red;
+}
+
+form{
+    margin-left: 3em;
+    margin-top: 3em;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid rgb(197, 197, 197);
+    float: left;
+    width: 20em;
+    background: #f1f1f1;
+}
+
+form.example button {
+    width: 3em;
+    height: 2.6em;
+    background: #000000;
+    color: white;
+    font-size: 16px;
+    border: 1px solid rgb(0, 0, 0);
+    border-left: none;
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: red;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 section{
-    margin-top: 5em;
+    margin-top: 1em;
     height: 20em;
     width: 26em;
     border-radius: 1.5em;
+    margin-left: 2.7em;
 }
 
 .info{
     display: flex;
     flex-direction:column;
     margin-left: 1em;
+
+}
+
+h2{
+    font-size: 20px;
 }
 
 h3{
+    font-size: 16px;
     margin-top: 0;
 }
 
@@ -59,6 +112,11 @@ h3{
     background-color: rgb(26, 96, 143);
 }
 
+.link_buttons{
+text-align: center;
+
+}
+
 
 .boek_sections{
     height: 10em;
@@ -69,6 +127,9 @@ h3{
 p{
     margin-left: 1em;
     margin-top: 0;
+    font-size: 14px;
+    height: 10em;
+    width: 12;
 }
 
 .info_boeken{
@@ -78,8 +139,6 @@ p{
 .section_links{
    text-decoration: none;
    color: black;
-   float:inline-end;
-   
 }
 section:not(:target) {
     display: none;
