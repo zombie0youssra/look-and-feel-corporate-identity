@@ -3,9 +3,62 @@
 }
 
 body{
-    margin: 0;
+    margin-left: 1em;
+    
 }
+
+
 
 header{
     
+}
+
+.logo{
+height: 8em;
+width: 15em;
+}
+
+ul{
+    float: left;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+li{
+    text-decoration: none;
+    margin-left: 0.5em;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5em;
+    margin-left: 1em;
+    height: 20em;
+    width: 26em;
+    background-color: lightgrey;
+}
+
+.boek_sections{
+    height: 10em;
+    width: 6em;
+}
+
+.section_links{
+   text-decoration: none;
+   color: black;
+   float:inline-end
+}
+section:not(:target) {
+    display: none;
+}
+
+section:target{
+    display: block;
+}
+
+
+/* medium */
+@media screen and (min-width: 600px) {
 }
