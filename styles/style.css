@@ -31,24 +31,47 @@ li{
 }
 
 section{
-    display: flex;
-    flex-direction: column;
     margin-top: 5em;
     margin-left: 1em;
     height: 20em;
     width: 26em;
-    background-color: lightgrey;
+    border-radius: 1.5em;
 }
+
+.info{
+    display: flex;
+    flex-direction:column;
+    margin-left: 1em;
+}
+
+h3{
+    margin-top: 0;
+}
+
+#section-1{
+    background-color: rgb(173, 46, 173);
+}
+
+#section-2{
+    background-color: rgb(207, 167, 5);
+}
+
+#section-3{
+    background-color: rgb(26, 96, 143);
+}
+
 
 .boek_sections{
     height: 10em;
     width: 6em;
+
 }
 
 .section_links{
    text-decoration: none;
    color: black;
-   float:inline-end
+   float:inline-end;
+   
 }
 section:not(:target) {
     display: none;
