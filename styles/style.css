@@ -76,6 +76,16 @@ form.example::after {
     display: table;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.deel_text{
+    margin-left: 3em;
+    margin-top: 2em;
+}
+
 section{
     margin-top: 1em;
     height: 20em;
@@ -112,6 +122,14 @@ h3{
     background-color: rgb(26, 96, 143);
 }
 
+#section-4{
+    background-color: rgb(103, 154, 255);
+}
+
+#section-5{
+    background-color: rgb(167, 0, 0);
+}
+
 .link_buttons{
 text-align: center;
 
@@ -140,6 +158,7 @@ p{
    text-decoration: none;
    color: black;
 }
+
 section:not(:target) {
     display: none;
 }
@@ -149,6 +168,44 @@ section:target{
 }
 
 
+.agenda_mini{
+    height: 9em;
+    width: 26em;
+    background-color: lightgray;
+    margin-top: 2em;
+    margin-left: 2.5em;
+    border-radius: 1.5em;
+    display: flex;
+    
+}
+
+.img_datum{
+    height: 7em;
+    width: 7em;
+    margin-top: 1em;
+    margin-left: 1em;
+    border: red solid 3px;
+    border-radius: 2em;
+    
+}
+
+.info_agenda{
+    margin-left: 0.5em;
+}
+
+.meld_aan{
+    background-color: red;
+    border: none;
+    color: white;
+}
+
+.meld_aan:hover{
+    color: white;
+    background-color: #000000
+}
+
+
 /* medium */
 @media screen and (min-width: 600px) {
+
 }
