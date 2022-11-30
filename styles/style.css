@@ -42,41 +42,6 @@ li:hover{
     color: red;
 }
 
-form{
-    margin-left: 3em;
-    margin-top: 3em;
-}
-
-form.example input[type=text] {
-    padding: 10px;
-    font-size: 17px;
-    border: 1px solid rgb(197, 197, 197);
-    float: left;
-    width: 20em;
-    background: #f1f1f1;
-}
-
-form.example button {
-    width: 3em;
-    height: 2.6em;
-    background: #000000;
-    color: white;
-    font-size: 16px;
-    border: 1px solid rgb(0, 0, 0);
-    border-left: none;
-    cursor: pointer;
-}
-
-form.example button:hover {
-    background: red;
-}
-
-form.example::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
 main{
     display: flex;
     flex-direction: column;
