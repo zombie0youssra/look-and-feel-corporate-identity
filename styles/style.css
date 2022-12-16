@@ -1,5 +1,7 @@
 :root{
-
+--red: #ff0000;
+--black: rgb(0, 0, 0);
+--gray: #f0f0f0;
 }
 
 body{
@@ -13,12 +15,12 @@ body{
 }
 
 a{
-    color: black;
+    color: var(--black);
     text-decoration: none;
 }
 
 a:hover{
-    color: red;
+    color: var(--red);
 }
 
 .logo{
@@ -40,7 +42,7 @@ li{
 }
 
 li:hover{
-    color: red;
+    color: var(--red);
 }
 
 main{
@@ -123,7 +125,7 @@ p{
 
 .section_links{
    text-decoration: none;
-   color: black;
+   color: var(--black);
 }
 
 section:not(:target) {
@@ -138,7 +140,7 @@ section:target{
 .agenda_mini{
     height: 9em;
     width: 26em;
-    background-color: lightgray;
+    background-color: var(--gray);
     margin-top: 2em;
     margin-left: 2.5em;
     border-radius: 1.5em;
@@ -151,7 +153,7 @@ section:target{
     width: 7em;
     margin-top: 1em;
     margin-left: 1em;
-    border: red solid 3px;
+    border: var(--red) solid 3px;
     border-radius: 2em;
     
 }
@@ -161,14 +163,14 @@ section:target{
 }
 
 .meld_aan{
-    background-color: red;
+    background-color: var(--red);
     border: none;
     color: white;
 }
 
 .meld_aan:hover{
     color: white;
-    background-color: #000000
+    background-color: var(--black);
 }
 
 
