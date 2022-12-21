@@ -1,7 +1,7 @@
 :root{
---red: #ff0000;
---black: rgb(0, 0, 0);
---gray: #f0f0f0;
+--secundaire_color: #ff0000;
+--primary_text_color: rgb(0, 0, 0);
+--primary_bg_color: #f0f0f0;
 }
 
 body{
@@ -9,6 +9,7 @@ body{
     font-family: 'Sen', sans-serif;
     display: flex;
     flex-direction: column;
+    background-color: var(--primary_bg_color);
 }
 
 
@@ -17,12 +18,12 @@ body{
 }
 
 a{
-    color: var(--black);
+    color: var(--primary_text_color);
     text-decoration: none;
 }
 
 a:hover{
-    color: var(--red);
+    color: var(--secundaire_color);
 }
 
 .logo{
@@ -73,14 +74,14 @@ section{
 }
 
 .inlijst{
-    background-color: black;
-    color: aliceblue;
+    background-color:var(--primary_text_color);
+    color:var(--primary_bg_color);
     width: 6em;
     margin-top: 1em;
 }
 
 .inlijst:hover{
-    color: red;
+    color: var(--secundaire_color);
 }
 
 h2{
@@ -178,11 +179,11 @@ section:target{
 .meld_aan{
     background-color: var(--red);
     border: none;
-    color: white;
+    color: var(--primary_bg_color);
 }
 
 .meld_aan:hover{
-    color: white;
+    color:var(--primary_bg_color);
     background-color: var(--black);
 }
 
